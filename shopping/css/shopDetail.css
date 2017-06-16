@@ -1,0 +1,16 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.detail{
+	width: 80%;
+	margin:10px auto;
+	text-align:center;
+	border:1px solid;
+}
+.detail img{
+	width: 40%;
+}
+#count{
+	width:20%;
+}

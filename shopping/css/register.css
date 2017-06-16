@@ -1,0 +1,52 @@
+body{
+	background: url("../img/tt.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+    background-position:50% 50%;
+}
+.form>input{
+	width: 330px;
+	height: 30px;
+	margin-left: 140px;
+	margin-top: 50px;
+	position: relative;
+	top: 60px;
+}
+#max{
+	display: block;
+	margin: 150px auto;
+	margin-left: 100px;
+	width: 900px;
+	height: 900px;
+	border: 5px solid #8BA8D0;
+	border-radius: 50%;
+}
+.form input[type="submit"]{
+	width:200px;
+	height: 45px;
+	margin: 60px;
+	margin-left: 150px;
+	text-align: center;
+	background: #89A9D6;
+	border-radius: 50%;
+}
+.font{
+	width: 190px;
+}
+.font b{
+	display: block;
+	width: 190px;
+	height: 45px;
+	margin: 15px 0 83px;
+	font-size: 28px;
+	margin-left: 170px;
+	margin-top: 105px;
+}
+.float{
+	float: left;
+}
+.tishi{
+	width: 400px;
+	height: 40px;
+	margin: 0;
+}

@@ -1,0 +1,35 @@
+body{
+	background: url("../img/tt.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+    background-position:50% 50%;
+	margin-left: 130px;
+	margin-top: 180px;
+	font-size: 50px;
+}
+#shopping,.addcar{
+	width: 80%;
+	margin: 100px auto;
+	overflow: hidden;
+	padding: 10px;
+}
+.shopcar{
+	position:fixed;
+	left: 100px;
+	top: 600px;
+	color:#89A9D6;
+	width: 30px;
+	font-size: 50px;
+	cursor: pointer;
+}
+#count{
+	width: 250px;
+	height: 30px;
+}
+.addcar>button{
+	background: red;
+	color: #fff;
+	font-size: 25px;
+	border:0;
+	margin-top: 10px;
+}

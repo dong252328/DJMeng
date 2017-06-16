@@ -1,0 +1,36 @@
+body{
+	background: url("../img/tt.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+    background-position:50% 50%;
+	margin-left: 200px;
+	margin-top: 150px;
+	font-size: 40px;
+	color: #536EBA;
+}
+input{
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 300px;
+	height: 30px;
+}
+#sex{
+	width: 300px;
+	height: 30px;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+#sub{
+	background:#8BA8D0;
+	width: 150px;
+	height: 45px;
+	margin-left: 80px;
+	font-size: 20px;
+}
+#button{
+	background:#8BA8D0;
+	width: 150px;
+	height: 45px;
+	font-size: 20px;
+	color: white;
+}

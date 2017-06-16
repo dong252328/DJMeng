@@ -1,0 +1,21 @@
+/*body{
+	background: url(../img/1095716_070906width11.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+    background-position:50% 50%;
+}*/
+div{
+	/*background-color: rgba(0,0,0,0.1);*/
+	color: #fff;
+}
+ul li{
+	color:#fff;
+}
+input[type='submit']{
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	border:0;
+}
+a{
+	color: #fff;
+}

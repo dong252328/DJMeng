@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>editinformation</title>
+	<link rel="stylesheet" href="../css/css.css" type="text/css">
+	<link rel="stylesheet" href="../css/editinformation.css" type="text/css">
+</head>
+<body>
+	<a href="shop.html">主页</a>
+	<a href="person.html">个人主页</a>
+	<a href="../php/lib/loginout.php">退出</a>
+	<form action="../php/lib/editinformation.php" method="post">
+		<input type="hidden" id="id" name="id"><br>
+		用&nbsp;&nbsp;户&nbsp;&nbsp;名:<input type="text" id="username" name="username" disabled><br>
+		手&nbsp;&nbsp;机&nbsp;&nbsp;号:<input type="text" id="phone" name="phone"><br>
+		邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱:<input type="text" id="email" name="email"><br>
+		地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址:<input type="text" id="address" name="address"><br>
+		性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别:
+		<select name="sex" id="sex">
+			<option value="0">保密</option>
+			<option value="1">男</option>
+			<option value="2">女</option>
+		</select><br>
+		真实姓名:<input type="text" id="realname" name="realname"><br>
+		<input type="submit" value="点击更改" id="sub">
+		<input type="button" value="返回" id="button">
+	</form>
+
+
+	<script src="../js/jquery-1.11.3.js"></script>
+	<script src="../js/iflogin.js"></script>
+	<script src="../js/editinformation.js"></script>
+</body>
+</html>

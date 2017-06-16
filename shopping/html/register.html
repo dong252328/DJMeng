@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>shop register</title>
+	<link rel="stylesheet" href="../css/register.css" type="text/css">
+	<link rel="stylesheet" href="../css/css.css" type="text/css">
+</head>
+<body>
+	<div id="max">
+		<div class="font float">
+			<b>用户名:</b>
+			<b>密码:</b>
+			<b>重复密码:</b>
+			<b>手机号:</b>
+			<b>电子邮箱:</b>
+		</div>
+		<form action="../php/lib/register.php" method="post" name="myform" class="form float">
+			<input type="text" name="username"><p class="tishi"></p><br>
+			<input type="password" name="password"><p class="tishi"></p><br>
+			<input type="password" name="password2"><p class="tishi"></p><br>
+			<input type="text" name="phone"><p class="tishi"></p><br>
+			<input type="email" name="email"><p class="tishi"></p><br>
+			<a href=""><input type="submit" value="注册"></a>
+		</form>
+	</div>
+
+	<script src="../js/jquery-1.11.3.js"></script>
+	<script src="../js/register.js"></script>
+</body>
+</html>

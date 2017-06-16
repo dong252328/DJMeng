@@ -1,0 +1,19 @@
+body{
+	background: url("../img/tt.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+    background-position:50% 50%;
+	margin-left: 200px;
+	margin-top: 220px;
+	font-size: 40px;
+	color: #536EBA;
+}
+#zhu{
+	text-align: center;
+}
+#sub{
+	background:#8BA8D0;
+	width: 150px;
+	height: 45px;
+	margin-left: 180px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>updateshop</title>
+	<link rel="stylesheet" href="../../css/insertshop.css" type="text/css">
+</head>
+<body>
+	<a href="insertshop.html">添加商品</a>
+	<a href="order.html">订单管理</a>
+	<a href="../../php/admin/loginout.php">退出</a>
+	<form action="../../php/admin/upshop.php" method="post" enctype="multipart/form-data">
+		商品名字:<input type="text" name="name"><br>
+		商品价格:<input type="number" name="price"><br>
+		商品描述:<input type="text" name="description"><br>
+		商品类型:<select name="type_id" id="type_id">
+		</select><br>
+		商品图片<input type="file" name="image"><br>
+		<input type="submit" value="添加商品" id="sub">
+	</form>
+
+
+
+	<script src="../../js/jquery-1.11.3.js"></script>
+	<script src="../../js/islogin.js"></script>
+	<script src="../../js/insertshop.js"></script>
+</body>
+</html>

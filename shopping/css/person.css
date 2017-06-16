@@ -1,0 +1,18 @@
+body{
+	background: url("../img/tt.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+    background-position:50% 50%;
+	margin-left: 100px;
+	margin-top: 150px;
+	font-size: 50px;
+}
+ul>li{
+	font-size: 40px;
+	margin-top: 15px;
+}
+button{
+	font-size: 30px;
+	background: #89A9D6;
+	margin-left: 20px;
+}

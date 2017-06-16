@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>updateshop</title>
+	<link rel="stylesheet" href="../../css/updateshop.css" type="text/css">
+</head>
+<body>
+	<div id="zhu">
+		<a href="insertshop.html">添加商品</a>
+		<a href="order.html">订单管理</a>
+		<a href="../../php/admin/loginout.php">退出</a>
+	</div>
+	
+	<form action="../../php/admin/updateshop.php" method="post" enctype="multipart/form-data">
+		<input type="hidden" id="id" name="id">
+		商品名字:<input type="text" name="name" id="name"><br>
+		商品价格:<input type="number" name="price" id="price"><br>
+		商品描述:<input type="text" name="description" id="description"><br>
+		商品类型:<select name="type_id" id="type_id">
+		</select><br>
+		商品状态:<select name="status" id="status">
+		<option value="1">出售中</option>
+		<option value="2">未出售</option>
+		</select><br>
+		商品图片<input type="file" name="image" id="tu"><br>
+		<input type="submit" value="修改商品" id="sub">
+	</form>
+	<div style="150" >
+		<img id="imgpath" width="150">
+	</div>
+
+
+
+	<script src="../../js/jquery-1.11.3.js"></script>
+	<script src="../../js/islogin.js"></script>
+	<script src="../../js/updateshop.js"></script>
+</body>
+</html>

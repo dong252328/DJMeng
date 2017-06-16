@@ -1,0 +1,60 @@
+body{
+	background: url("../img/tt.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+    background-position:50% 50%;
+	margin-left: 100px;
+	margin-top: 150px;
+	font-size: 50px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none;
+}
+#shop{
+	width: 80%;
+	border:3px solid  #89A9D6;
+	margin: 25px auto;
+	overflow: hidden;
+	text-align: center;
+}
+#logingo,#loginout{
+	text-align: center;
+	color: black;
+}
+#shop:after{
+	float:both;
+}
+#shop > div{
+	margin: 10px;
+	border:2px solid red;
+	float:left;
+	width: 31.6%;
+	height: 450px;
+	text-align: center;
+}
+#shop div>img{
+	width: 80%;
+	height: 58%;
+	padding-top: 15px;
+}
+#paging{
+	width: 80%;
+	text-align:center;
+	margin: 0 auto;
+}
+.shopcar{
+	position:fixed;
+	left: 100px;
+	top: 500px;
+	color: #89A9D6;;
+	width: 30px;
+	font-size: 50px;
+	cursor: pointer;
+}
+#paging a{
+	cursor: pointer;
+}
